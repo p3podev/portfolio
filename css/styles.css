@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  color: #0cec8b;
+}
+h2{
+  font-family: "Comfortaa", sans-serif;
+  color: #0484FC
+}
+p,
+span {
+  font-family: "Nunito Sans", sans-serif;
+  color: #f2f2f3;
+}
+body{
+  background: #f2f2f3;
+}
+/* Estilos Generales */
+header {
+  background: #2d2d2d;
+  padding: 5px 30px;
+}
+.image-container {
+  display: flex;
+}
+.image-container img {
+  width: 100%;
+}
+#logo {
+  width: 125px;
+}
+/*Hero Styles*/
+#hero {
+  position: relative;
+}
+#hero #fondo {
+  display: inline-block;
+  width: 100%;
+}
+#hero .info-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 0 5vw;
+  width: 100%;
+}
+#hero .info-container #foto {
+  align-items: center;
+  justify-content: center;
+  margin-left: 8vw;
+}
+
+#hero .info-container #foto img {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #f2f2f3;
+  width: 18vw;
+  height: auto;
+}
+#hero .info-container .info {
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.7vw;
+  text-align: right;
+  margin-left: auto;
+}
+#hero .info-container .info h1 {
+  margin-bottom: 35px;
+}
+
+#hero .info-container .info .social-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+#hero .info-container .info #linkedin img {
+  width: 1.7vw;
+  height: 1.7vw;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#hero .info-container .info #github img {
+  width: 1.7vw;
+  height: 1.7vw;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+main{
+  margin-top: 5px;
+  background: #2d2d2d;
+  padding: 7vw;
+  font-size: 1.3vw;
+}
+
+main p{
+  text-align: justify;
+}
+main h2{
+  text-align: center;
+  margin-bottom: 1.2vw;
+}
